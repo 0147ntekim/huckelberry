@@ -12,40 +12,38 @@
 
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <a href="#" class="nav-logo">
-          <img src="images/logo.png" alt="">
-        </a>
+    <header role="heading" class="header">
+      <nav role="navigation" class="nav">
+        <div class="nav-logo">
+          <img class="logo" src="images/logo.png" alt="">
+        </div>
         
-          <ul class="nav-menu">
-            <li class="nav-item">
-              <a href="#hero_page" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#property_slides" class="nav-link">Properties</a>
-            </li>
-            <li class="nav-item">
-              <a href="#testimonials_page" class="nav-link">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a href="#blog_page" class="nav-link">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact_page" class="nav-link">Contact us</a>
-            </li>
-          </ul>
-          <div class="hamburger">
-            <span class="bar"></span> 
-            <span class="bar"></span> 
-            <span class="bar"></span> 
-          </div>
+        <ul class="nav-links">
+          <li class="nav-item nav-items">
+            <a href="#hero_page" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#property_slides" >Properties</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials_page" >Testimonials</a>
+          </li>
+          <li class="nav-item nav-items">
+            <a href="#blog_page" >Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact_page" >Contact us</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <img src="images/icon-hamburger.svg" alt="">
+        </div>
       </nav>
 
-      <div id="hero_page" class="banner">
+      <div role="banner" id="hero_page" class="banner">
         <div class="banner_captions">
-          <h1 class="banner_captions_h1">Your ideal <br>property match</h1>
-          <p class="banner_captions_p">we have access to a large network of luxury outlets, <br> including exclusive residences,apartments,lodges, <br> short-term rentals,and even elite hotels!</p>
+          <h1 class="banner_captions_h1">Your ideal property match</h1>
+          <p class="banner_captions_p">we have access to a large network of luxury outlets,  including exclusive residences,apartments,lodges, short-term rentals,and even elite hotels!</p>
           
           <button class="banner_captions_button"><a href="#">book now</a></button>
         </div>
@@ -53,7 +51,6 @@
     </header>
 
     
-    <!--our vision-->
     <section class="vision">
       <div class="vision_text">
         <h2>Our Vision</h2>
@@ -62,27 +59,26 @@
       </div>
 
       <div class="vision_main">
-        <div class="vision_image_overlay">
+        <div class="vision_main_inner">
           <div class="vision_main_line"></div>
           <p class="vision_main_p">
-            Our goal is to provide you with the<br> best  possible customer experience<br>—whether it's  renovating a house<br> & you're looking for new <br> innovation, or just a luxurious <br>experience that’ll last a lifetime,<br> look no further.
+            Our goal is to provide you with the best possible customer experience --whether it's renovating a house & you're looking for new innovation, or just a luxurious experience that’ll last a lifetime, look no further.
           </p>
+        </div>
+
+        <div class="vision_main_two">
         </div>
       </div>
 
-      <div class="vision_image2">
-        <img src="images/img4.png" alt="">
-      </div>
+      
     </section>
 
-   <!--slider-->
-   <section id="property_slides" class="slider">
+    <section id="property_slides" class="slider">
       <div class="content">
         <div class="images">
-            <img class="pic current" src="./images/img6.png" alt="">
-            <img class="pic" src="./images/img2.png" alt="">
-            <img class="pic" src="./images/img8.png" alt="">
-            
+          <img id="img1" class="pic current" src="./images/img6.png" alt="">
+          <img id="img2" class="pic" src="./images/img2.png" alt="">
+          <img id="img3" class="pic" src="./images/img8.png" alt="">
         </div>
 
         <div class="slide left">
@@ -100,39 +96,44 @@
       </div>
     </section>
 
-    <!--testimonials-->
     <section id="testimonials_page" class="testimonials">
-      <div class="testimonials_text">
+      <div class="testimonials_head">
         <h2>Testimonials</h2>
         <div class="line1">
         </div>
       </div>
 
+      <div class="testimonials_main_image2">
+      </div>
+
       <div class="testimonials_main">
-        <div class="testimonials_image_overlay"></div>
+      
+        <div class="testimonials_main_inner">
+          <div class="testimonials_main_line"></div>
+          <div class="testimonials_inner">
+            <img class="test1" src="images/apostrophy icon.png" alt="">
+  
+            <p class="testimonials_main_p">
+              I had an amazing experience using these wonderful client channels to find the perfect  home for me & my family.
+            </p>
 
-        <div class="testimonials_main_line"></div>
-        <div class="testimonials_inner">
-          <img class="test1" src="images/apostrophy icon.png" alt="">
-
-          <p class="testimonials_main_p">
-            I had an amazing experience <br> using these wonderful client <br>  channels to find the perfect <br> home for me & my family.
-          </p>
-
-          <img class="test2" src="images/img9.png" alt="">
-
-          <h3 class="test_h3">Chase Darwin</h3>
-
-          <a class="slide-control-prev"  href="#" role="button" data-slide="prev">
-            <img src="images/Vector3.png" alt="">
-          </a>
-          <a class="slide-control-next"  href="#" role="button" data-slide="next">
-            <img src="images/vector4.png" alt="">
-          </a>
-        </div>
-
-        <div class="testimonials_image2">
-          <img src="images/img7.png" alt="">
+            <div class="testimonials_inner_2">
+              <img class="test2" src="images/img9.png" alt="">
+  
+              <h3 class="test_h3">Chase Darwin</h3>
+            </div>
+  
+            
+  
+            <div class="testimonials_inner_inn">
+              <a class="slide-control prev"  href="#" role="button" data-slide="prev">
+                <img src="images/Vector3.png" alt="">
+              </a>
+              <a class="slide-control next"  href="#" role="button" data-slide="next">
+                <img src="images/vector4.png" alt="">
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -140,27 +141,26 @@
     
     <section  class="services">
       <div class="services_main">
-        <div class="services_images_overlay"></div>
         <h1 class="services_text1">what we offer</h1>
 
         <div class="services_info">
-          <div class="info1">
-            <img class="info1_img1" src="images/Vector 13.png" alt="">
-            <p class="info1_text">Best Real Estate <br> Customer network</p>
-            <img class="info1_img2" src="images/Vector 12.png" alt="">
-            <img class="info1_img3" src="images/Vector_img1.png" alt="">
+          <div class="info info1">
+            <img class="info_img info1_img1" src="images/Vector 13.png" alt="">
+            <p class="info_text info1_text">Best Real Estate Customer network</p>
+            <img class="info_img2 info1_img2" src="images/Vector 12.png" alt="">
+            <img class="info_img3 info1_img3" src="images/Vector_img1.png" alt="">
           </div>
-          <div class="info2">
-            <img class="info2_img1" src="images/Vector 14.png" alt="">
-            <p class="info2_text">Royalties & merit <br> system for elite <br> customers</p>
-            <img class="info2_img2" src="images/Vector 11.png" alt="">
-            <img class="info2_img3" src="images/Vector_img2.png" alt="">
+          <div class="info info2">
+            <img class="info_img info2_img1" src="images/Vector 14.png" alt="">
+            <p class="info_text info2_text">Royalties & merit system for elite customers</p>
+            <img class="info_img2 info2_img2" src="images/Vector 11.png" alt="">
+            <img class="info_img3 info2_img3" src="images/Vector_img2.png" alt="">
           </div>
-          <div class="info3">
-            <img class="info3_img1" src="images/Vector 15.png" alt="">
-            <p class="info3_text">best hotel booking <br> service packages</p>
-            <img class="info3_img2" src="images/Vector 10.png" alt="">
-            <img class="info3_img3" src="images/Vector_img3.png" alt="">
+          <div class="info info3">
+            <img class="info_img info3_img1" src="images/Vector 15.png" alt="">
+            <p class="info_text info3_text">best hotel booking service packages</p>
+            <img class="info_img2 info3_img2" src="images/Vector 10.png" alt="">
+            <img class="info_img3 info3_img3" src="images/Vector_img3.png" alt="">
           </div>
         </div>
       </div>
@@ -168,16 +168,15 @@
 
   
     <section id="blog_page" class="blog">
-      <h2 class="blog_tittle">Blog</h2>
+      <h2 class="blog_title">Blog</h2>
       <div class="blog_main">
         <div class="blog_inner1">
           <p class="blog_inner1_p">
-            Huckleberry Real Estate is a luxury real <br>estate  company with a large network of <br>clients and provides luxury housing <br>outlets ranging from apartments, lodges, <br>short lets & exclusive elite hotel packages <br>to mansions & luxurious houses previously<br> owned by some of the most famous <br>celebrities & Influencers in our vast <br>network.
+            Huckleberry Real Estate is a luxury real estate  company with a large network of clients and provides luxury housing outlets ranging from apartments, lodges, short lets & exclusive elite hotel packages to mansions & luxurious houses previously owned by some of the most famous celebrities & Influencers in our vast network.
           </p>
           <button class="blog_inner1_button" href="#"><a class="button_text">Read more</a></button>
         </div>
         <div class="blog_inner2">
-          <img class="blog_inner2_img2" src="images/img11.png" alt="">
         </div>
       </div>
     </section>
@@ -189,36 +188,44 @@
           <img src="images/logo2.png" alt="" class="footer_logo">
 
           <p class="footer_inner1_p">
-            Lorem ipsum dolor sit amet consectetur. <br> Vivamus sit vel mi enim volutpat in. Odio eget<br> pellentesque enim neque velit sed neque. Est <br>ipsum habitasse ornare nisi elit suspendisse <br>facilisis proin. Dolor massa fringilla suscipit <br>amet malesuada pulvinar.
+            Lorem ipsum dolor sit amet consectetur.  Vivamus sit vel mi enim volutpat in. Odio eget pellentesque enim neque velit sed neque. Est ipsum habitasse ornare nisi elit suspendisse facilisis proin. Dolor massa fringilla suscipit amet malesuada pulvinar.
           </p>
 
-          <img class="location_img" src="images/location.png" alt="">
-          <p class="location_text">african lane, crescent shaw ave, lagos.</p>
+          <div class="footer_inner1_inner">
+            <img class="location_img" src="images/location.png" alt="">
+            <p class="location_text">african lane, crescent shaw ave, lagos.</p>
+          </div>
+          
         </div>
 
         <div class="footer_inner2">
-          <h2 class="footer_inner2_tittle">The company</h2>
+          <h2 class="footer_inner2_title">The company</h2>
 
           <ul class="footer_inner2_list">
-            <li><img src="images/Vector 2.png" alt=""> Sitemap</li>
-            <li><img src="images/Vector 2.png" alt=""> Legal</li>
-            <li><img src="images/Vector 2.png" alt=""> Agent Admin</li>
-            <li><img src="images/Vector 2.png" alt=""> Careers</li>
-            <li><img src="images/Vector 2.png" alt=""> Affiliate</li>
-            <li><img src="images/Vector 2.png" alt=""> Privacy Policy</li>
+            <li><img src="images/Vector 2.png" alt=""> <span>Sitemap</span> </li>
+            <li><img src="images/Vector 2.png" alt="">  <span>legal</span></li>
+            <li><img src="images/Vector 2.png" alt="">  <span>agent admin</span></li>
+            <li><img src="images/Vector 2.png" alt="">  <span>careers</span></li>
+            <li><img src="images/Vector 2.png" alt="">  <span>affiliate</span></li>
+            <li><img src="images/Vector 2.png" alt="">  <span>privacy policy</span></li>
           </ul>
         </div>
 
         <div class="footer_inner3">
           <h2 class="footer_inner3_title">Contact Us</h2>
 
-          <div class="footer_inner3_img">
-            <img src="images/Vector5.png" alt="" class="footer_inner3_img1">
-            <p class="p1">+234 904 463 3460</p>
-
-            <img src="images/Vector7.png" alt="" class="footer_inner3_img2">
-            <img src="images/Vector6.png" alt="" class="footer_inner3_img3">
-            <p class="p2">Huckleberrint@gmail.com</p>
+          <div class="footer_inner3_inner">
+            <div class="inn1">
+              <img src="images/Vector5.png" alt="" class="inn1_img">
+              <p class="p1">+234 904 463 3460</p>
+            </div>
+            
+            <div class="inn2">
+              <img src="images/Vector7.png" alt="" class="inn2_img1">
+              <img src="images/Vector6.png" alt="" class="inn2_img2">
+              <p class="p2">Huckleberrint@gmail.com</p>
+            </div>
+            
           </div>
           
 
@@ -229,11 +236,11 @@
             <img src="images/_Path_4.png" alt="" class="favcon4">
           </div>
         </div>
-        <div class="footer_inner4">
-          <p class="p3">copyrights <span>huckleberry international</span> all rights reserved</p>
-        </div>
       </div>
-    </section>-->
+      <div class="footer_inner4">
+        <p class="p3">copyrights <span>huckleberry international</span> all rights reserved</p>
+      </div>
+    </section>
     
 
   </body>
